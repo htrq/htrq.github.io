@@ -1,0 +1,27 @@
+li, p {
+    font-family: Oswald, sans-serif;
+    font-size: 18px;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #F02D4E;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    font-size: 30px;
+}
+img {
+    margin: 0 20px;
+    display: block;
+}
+html {
+    background-color: blueviolet;
+}
+body {
+    width: 600px;
+    border: 9px black;
+    border-style: double solid;
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    background-color: aquamarine;
+}
