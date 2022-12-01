@@ -9,6 +9,8 @@ h1 {
     text-shadow: 1px 1px 1px black;
     text-align: center;
     font-size: 30px;
+    border: 6px black;
+    border-style: dashed inset double;
 }
 img {
     margin: 0 20px;
