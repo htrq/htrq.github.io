@@ -30,3 +30,7 @@ body {
 .special {
     color: #F02D4E;
 }
+button {
+    display: block;
+    margin-bottom: 5px;
+}
