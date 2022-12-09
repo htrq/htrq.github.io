@@ -12,3 +12,8 @@ ul {
 li {
   margin-left: 20px;
 }
+
+#humus-icon {
+  width: 600px;
+  display: block;
+}
