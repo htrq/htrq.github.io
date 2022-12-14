@@ -1,23 +1,26 @@
 body {
-    width: 640px;
+    width: 70%;
     border: 3px solid black;
     box-shadow: 2px 4px 2px;
     margin: 40px auto;
 }
 nav li {
-    display: inline;
+    display: inline-block;
     padding: 8px 10px;
+    margin: 10px auto;
     background-color: aquamarine;
     border: 2px solid black;
-    font-size: large;
 }
 p, h1 {
     margin-left: 8px;
+}
+ul {
+    padding: 10px 20px;
 }
 nav a {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
     font-family: Playfair Display, sans-serif;
-    font-size: 25px;
+    font-size: medium;
 }
