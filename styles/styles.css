@@ -4,6 +4,7 @@ body {
     box-shadow: 2px 4px 2px;
     margin: 40px auto;
 }
+
 nav li {
     display: inline-block;
     padding: 8px 4px;
@@ -11,16 +12,29 @@ nav li {
     background-color: aquamarine;
     border: 2px solid black;
 }
-p, h1 {
+
+p h1 {
     margin-left: 8px;
 }
+
 ul {
     padding: 10px 20px;
 }
+
+main {
+    display: flex;
+}
+
 nav a {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
     font-family: Anton, sans-serif;
     font-size: medium;
+}
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: #ABFFD4;
 }
