@@ -111,10 +111,16 @@ nav a, nav span {
 
 main {
   display: flex;
+  align-items: baseline;
 }
 
-article, section {
+article {
   flex: 4;
+}
+
+section {
+  flex: 4;
+  margin-left: 10px;
 }
 
 aside {
