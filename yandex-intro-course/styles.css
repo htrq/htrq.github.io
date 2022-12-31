@@ -16,8 +16,21 @@ button {
     font-variant: slashed-zero;
 }
 
-p {
-    font-family: 'Fira-Sans', Oswald, sans-serif;
-    font-style: italic;
+
+.oswald {
+    font-family: Oswald, sans-serif;
     font-variant: small-caps slashed-zero;
+}
+.fira_sans {
+    font-family: 'Fira-Sans', sans-serif;
+    font-variant: small-caps slashed-zero;
+}
+
+body {
+    width: 70%;
+    margin: 20px auto;
+}
+
+html {
+    font-size: 1.5rem;
 }
