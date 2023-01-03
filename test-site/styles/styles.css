@@ -12,10 +12,18 @@ h1 {
     border: 6px black;
     border-style: dashed inset double;
 }
-img {
+body img {
     margin: 0 20px;
     display: block;
 }
+figure img {
+    width: 80%;
+}
+
+figcaption {
+    font-family: Oswald, sans-serif;
+}
+
 html {
     background-color: blueviolet;
 }
