@@ -2,6 +2,11 @@ li, p {
     font-family: Oswald, sans-serif;
     font-size: 18px;
 }
+
+html {
+    background-image:url("../images/background.jpg");
+}
+
 h1 {
     margin: 0;
     padding: 20px 0;
@@ -16,9 +21,6 @@ body img {
     margin: 0 20px;
     display: block;
 }
-/* figure img {
-    width: 80%;
-} */
 
 figcaption {
     font-family: Oswald, sans-serif;
