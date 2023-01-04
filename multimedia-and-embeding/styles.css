@@ -4,3 +4,7 @@ img {
     width: 260px;
     height: 260px;
 }
+video {
+    display: block;
+    margin: 1.5rem auto;
+}
