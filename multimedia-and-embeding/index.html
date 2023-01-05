@@ -34,11 +34,18 @@
         <source src="multimedia/html_multimedia-and-embedding_video-and-audio-content_viper.mp3" type="audio/mp3">
         <source src="multimedia/html_multimedia-and-embedding_video-and-audio-content_viper.ogg" type="audio/ogg">
         <p>Your browser doesn't support this audio file. Here is the<a
-            href="multimedia/html_multimedia-and-embedding_video-and-audio-content_viper.mp3"> download mp3 file link</a>
+                href="multimedia/html_multimedia-and-embedding_video-and-audio-content_viper.mp3"> download mp3 file
+                link</a>
             instead</p>
     </audio>
     <h2>Now is example with subtitles on video.</h2>
-    
+    <video controls preload="metadata">
+        <source src="multimedia/Scene.mp4" type="video/mp4">
+        <track label="English" kind="subtitles" srclang="en" src="multimedia/sub-en.vtt" default>
+        <p>Your browser doesn't support this video format. So here is
+            <a href="multimedia/Scene.mp4">Snatch - I`m sweet enough Scene.mp4 link instead </a>
+        </p>
+    </video>
 </body>
 
 </html>
