@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,37 @@
     <link href="styles.css" rel="stylesheet">
     <title>Multimedia and embeding</title>
 </head>
+
 <body>
+    <h1>Here im practice multimedia and embeding stuffs.</h1>
+    <h2>Example with map element.</h2>
     <map name="example-map">
-        <area 
-            shape="poly"
-            coords="130, 30, 240, 100, 195, 240, 65, 240, 20, 100"
-            href="../index.html"
-            target="_parent"
+        <area shape="poly" coords="130, 30, 240, 100, 195, 240, 65, 240, 20, 100" href="../index.html" target="_parent"
             alt="move on main page">
     </map>
     <img usemap="#example-map" src="../images/polygon-image(5).png" alt="move on main page" title="image of polygon">
+    <h2>Here is some practice with video!</h2>
     <video src="multimedia/rabbit320.mp4" controls></video>
+    <p>If it doesn't work u can watch it in separate window: <a href="multimedia/rabbit320.mp4">Watch a
+            video.</a></p>
+    <video width="400px" height="300px" controls muted autoplay loop preload="auto" poster="multimedia/poster.png">
+        <source src="multimedia/rabbit320.mp4" type="video/mp4">
+        <source src="multimedia/rabbit320.webm" type="video/webm">
+        <p>
+            Your browser doesn't support this video. Here is a
+            <a href="multimedia/rabbit320.mp4">link to the video</a> instead.
+        </p>
+    </video>
+    <h2>Now is experiment with audio!</h2>
+    <audio controls>
+        <source src="multimedia/html_multimedia-and-embedding_video-and-audio-content_viper.mp3" type="audio/mp3">
+        <source src="multimedia/html_multimedia-and-embedding_video-and-audio-content_viper.ogg" type="audio/ogg">
+        <p>Your browser doesn't support this audio file. Here is the<a
+            href="multimedia/html_multimedia-and-embedding_video-and-audio-content_viper.mp3"> download mp3 file link</a>
+            instead</p>
+    </audio>
+    <h2>Now is example with subtitles on video.</h2>
+    
 </body>
+
 </html>

@@ -8,3 +8,13 @@ video {
     display: block;
     margin: 1.5rem auto;
 }
+
+html {
+    background-color: aliceblue;
+}
+
+body {
+    width: 65%;
+    margin: 10px auto;
+    background-color: beige;
+}
