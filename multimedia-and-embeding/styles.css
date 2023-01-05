@@ -7,7 +7,7 @@ img {
 video {
     display: block;
     margin: 1.5rem auto;
-    width: 30rem;
+    width: 300px;
 }
 
 
@@ -16,13 +16,15 @@ html {
 }
 
 body {
-    width: 65%;
+    width: 90%;
     margin: 10px auto;
     background-color: beige;
 }
 
 figure {
     background-color: rgb(254, 179, 48);
+    width: 300px;
+    margin: 16px auto;
 }
 
 h2 strong {
