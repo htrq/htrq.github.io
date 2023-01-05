@@ -10,6 +10,7 @@ video {
     width: 30rem;
 }
 
+
 html {
     background-color: aliceblue;
 }
@@ -18,4 +19,12 @@ body {
     width: 65%;
     margin: 10px auto;
     background-color: beige;
+}
+
+figure {
+    background-color: rgb(254, 179, 48);
+}
+
+h2 strong {
+    color: rgb(255, 44, 44);
 }

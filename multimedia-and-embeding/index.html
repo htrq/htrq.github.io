@@ -38,14 +38,16 @@
                 link</a>
             instead</p>
     </audio>
-    <h2>Now is example with subtitles on video.</h2>
-    <video controls preload="metadata">
-        <source src="multimedia/Scene.mp4" type="video/mp4">
-        <track label="English" kind="subtitles" srclang="en" src="multimedia/sub-en.vtt" default>
-        <p>Your browser doesn't support this video format. So here is
-            <a href="multimedia/Scene.mp4">Snatch - I`m sweet enough Scene.mp4 link instead </a>
-        </p>
-    </video>
+    <h2>Now it is <strong>SUPER</strong> example with subtitles on video.</h2>
+    <figure>
+        <figcaption>Open side menu on the player and check needed subtitles.</figcaption>
+        <video controls preload="metadata" poster="multimedia/poster.png">
+            <source src="multimedia/Scene.mp4" type="video/mp4">
+            <track label="English" kind="subtitles" srclang="en" src="multimedia/sub-en.vtt">
+            <track label="日本語" kind="subtitles" srclang="jap" src="multimedia/sub-jap.vtt">
+            <track label="Русский" kind="subtitles" srclang="rus" src="multimedia/sub-rus.vtt">
+        </video>
+    </figure>
 </body>
 
 </html>
