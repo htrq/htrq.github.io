@@ -37,12 +37,20 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
     <h2>Object example</h2>
-    <object data="mypdf.pdf" type="application/pdf" width="800" height="1200">
+    <object data="mypdf.pdf" type="application/pdf" width="800" height="900">
       <p>
         You don't have a PDF plugin, but you can
         <a href="mypdf.pdf">download the PDF file. </a>
       </p>
     </object>
+    <h2>Practicing with area element again</h2>
+    <map name="circle_poly">
+      <area shape="circle" coords="30, 30, 13" href="../content/content.html" alt="move on content page">
+    </map>
+    <figure>
+      <img src="images/circle_polygon.png" alt="picture with small circle and caption to click it" usemap="#circle_poly">
+      <figcaption>Abowe is the example of polygon</figcaption>
+    </figure>
 </body>
 
 </html>
