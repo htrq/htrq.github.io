@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Anton;
+    src: url(../../fonts/Anton/Anton-Regular.ttf);
+}
 li, p {
     font-family: Oswald, sans-serif;
     font-size: 18px;
@@ -5,6 +9,22 @@ li, p {
 
 html {
     background-image:url("../images/background.jpg");
+}
+
+nav li {
+    display: inline-block;
+    padding: 8px 4px;
+    margin: 10px auto;
+    background-color: rgb(127, 204, 255);
+    border: 2px solid black;
+    
+}
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: Anton, sans-serif;
+    font-size: medium;
 }
 
 h1 {
