@@ -37,9 +37,6 @@ h1 {
     border: 6px black;
     border-style: dashed inset double;
 }
-body img {
-    display: block;
-}
 
 figcaption {
     font-family: Oswald, sans-serif;
