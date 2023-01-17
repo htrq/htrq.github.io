@@ -84,9 +84,17 @@
             <figure>
                 <img src="images/teen-girl-on-the-phone-again.svg" alt="teen-girl-on-the-phone-again" width="300px"
                     height="400px">
-                <figcaption>А здесь SVG картинка</figcaption>
+                <figcaption>А здесь SVG картинка, попробуй приблизь</figcaption>
             </figure>
         </article>
+        <section>
+            <h2>Теперь responsive images</h2>
+            <img src="images/soul-600w.png" srcset="images/soul-600w.png 600w, images/soul-480.png 480w"
+                sizes="(max-width: 590px) 480px, 600px"
+                alt="Soul, main character from serial &quot;Better call Soul&quot;">
+            <p>Суть заключается в том, что если запустить сайт на более узком экране(менее 590 пикселей), то размер
+                картинки подстроится и станет меньше(480 пикселей)</p>
+        </section>
         <input type="text" disabled>
     </main>
     <footer>
