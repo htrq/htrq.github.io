@@ -24,6 +24,9 @@ body img {
 
 figcaption {
     font-family: Oswald, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 3px 4px black;
+    text-align: end;
 }
 
 html {
