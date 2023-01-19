@@ -90,14 +90,13 @@
         </article>
         <section>
             <h2>Теперь responsive images</h2>
-            <img src="images/soul-600w.png" srcset="images/soul-600w.png 600w, images/soul-480.png 480w"
-                sizes="(max-width: 590px) 480px, 600px"
-                alt="Soul, main character from serial &quot;Better call Soul&quot;">
+            <img src="images/soul-600w.png" srcset="images/soul-480w.png 480w, images/soul-600w.png 600w"
+            sizes="(max-width: 590px) 480px, 600px" alt="Soul, main character from serial &quot;Better call Soul&quot;">
             <p>Суть заключается в том, что если запустить сайт на более узком экране(менее 590 пикселей), то размер
                 картинки подстроится и станет меньше(480 пикселей)</p>
             <picture>
-                <source media="(max-width: 599px)" srcset="images/black-dress-looking-away-women-480w-close-portrait.jpg" type="image/jpg">
-                <source media="(min-width: 600px)" srcset="images/black-dress-looking-away-women-600w.jpg" type="image/jpg">
+                <source media="(max-width: 590px)" srcset="images/black-dress-looking-away-women-480w-close-portrait.jpg" type="image/jpg">
+                <source media="(min-width: 591px)" srcset="images/black-dress-looking-away-women-600w.jpg" type="image/jpg">
                 <img src="images/black-dress-looking-away-women-600w.jpg"
                     alt="black_dress_looking_away_women crossed hands on the background of the ocean">
             </picture>
