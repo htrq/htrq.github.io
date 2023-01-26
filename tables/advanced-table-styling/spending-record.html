@@ -21,55 +21,109 @@
   </nav>
 
   <h1>My spending record</h1>
+  <figure>
+    <figcaption>That table is built with <strong>scope</strong> attribute</figcaption>
+    <table>
+      <caption>How I chose to spend my money</caption>
+      <thead>
+        <tr>
+          <th scope="col">Purchase</th>
+          <th scope="col">Location</th>
+          <th scope="col">Date</th>
+          <th scope="col">Evaluation</th>
+          <th scope="col">Cost (€)</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>SUM</td>
+          <td colspan="4">118</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th>Haircut</th>
+          <td>Hairdresser</td>
+          <td>12/09</td>
+          <td>Great idea</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <th>Lasagna</th>
+          <td>Restaurant</td>
+          <td>12/09</td>
+          <td>Regrets</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <th>Shoes</th>
+          <td>Shoeshop</td>
+          <td>13/09</td>
+          <td>Big regrets</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <th>Toothpaste</th>
+          <td>Supermarket</td>
+          <td>13/09</td>
+          <td>Good</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+    </table>
+  </figure>
 
-  <table>
-    <caption>How I chose to spend my money</caption>
-    <thead>
-      <tr>
-        <th scope="col">Purchase</th>
-        <th scope="col">Location</th>
-        <th scope="col">Date</th>
-        <th scope="col">Evaluation</th>
-        <th scope="col">Cost (€)</th>
-      </tr>
-    </thead>
-    <tfoot>
-      <tr>
-        <td>SUM</td>
-        <td colspan="4">118</td>
-      </tr>
-    </tfoot>
-    <tbody>
-      <tr>
-        <td>Haircut</td>
-        <td>Hairdresser</td>
-        <td>12/09</td>
-        <td>Great idea</td>
-        <td>30</td>
-      </tr>
-      <tr>
-        <td>Lasagna</td>
-        <td>Restaurant</td>
-        <td>12/09</td>
-        <td>Regrets</td>
-        <td>18</td>
-      </tr>
-      <tr>
-        <td>Shoes</td>
-        <td>Shoeshop</td>
-        <td>13/09</td>
-        <td>Big regrets</td>
-        <td>65</td>
-      </tr>
-      <tr>
-        <td>Toothpaste</td>
-        <td>Supermarket</td>
-        <td>13/09</td>
-        <td>Good</td>
-        <td>5</td>
-      </tr>
-    </tbody>
-  </table>
+  <figure>
+    <figcaption>That table is built with <strong>id</strong> and <strong>header</strong> attribute</figcaption>
+    <table>
+      <caption>How I chose to spend my money</caption>
+      <thead>
+        <tr>
+          <th id="purchase">Purchase</th>
+          <th id="location">Location</th>
+          <th id="date">Date</th>
+          <th id="evaluation">Evaluation</th>
+          <th id="cost">Cost (€)</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th id="summart">SUM</th>
+          <td colspan="4" headers="total summary">118</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th id="haircut">Haircut</th>
+          <td headers="haircut location">Hairdresser</td>
+          <td headers="haircut date">12/09</td>
+          <td headers="haircut evaluation">Great idea</td>
+          <td headers="haircut cost">30</td>
+        </tr>
+        <tr>
+          <th id="dish">Lasagna</th>
+          <td headers="dish location">Restaurant</td>
+          <td headers="dish date">12/09</td>
+          <td headers="dish evaluation">Regrets</td>
+          <td headers="dish cost">18</td>
+        </tr>
+        <tr>
+          <th id="shoes">Shoes</th>
+          <td headers="shoes location">Shoeshop</td>
+          <td headers="shoes date">13/09</td>
+          <td headers="shoes evaluation">Big regrets</td>
+          <td headers="shoes cost">65</td>
+        </tr>
+        <tr>
+          <th id="toothpaste">Toothpaste</th>
+          <td headers="toothpaste location">Supermarket</td>
+          <td headers="toothpaste date">13/09</td>
+          <td headers="toothpaste evaluation">Good</td>
+          <td headers="toothpaste cost">5</td>
+        </tr>
+      </tbody>
+    </table>
+  </figure>
 
   <table>
     <caption>Items Sold August 2016</caption>
