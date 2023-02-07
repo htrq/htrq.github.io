@@ -1,6 +1,7 @@
 # htrq.github.io 
 
-## **You can visit My Site Via Link: https://htrq.github.io/ **
+## You can visit My Site Via Link: https://htrq.github.io/ 
+    <img src="pointer-web-white.svg" height="200" width="200">
 This site was built using [GitHub Pages](https://pages.github.com/)
 
 ## This rep is a draft 😇
