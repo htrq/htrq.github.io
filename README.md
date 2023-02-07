@@ -1,7 +1,7 @@
 # htrq.github.io 
 
 ## You can visit My Site Via Link: https://htrq.github.io/ 
-<img src="pointer-web-white.svg" height="400" width="400">
+<img src="pointer-web-white.svg" height="300px" width="300px" style="margin-left: 100px;>
 This site was built using [GitHub Pages](https://pages.github.com/)
 
 ## This rep is a draft 😇
