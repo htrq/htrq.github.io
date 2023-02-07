@@ -1,4 +1,8 @@
-# htrq.github.io
+# htrq.github.io 
+
+## **You can visit My Site Via Link: https://htrq.github.io/ **
+This site was built using [GitHub Pages](https://pages.github.com/)
+
 ## This rep is a draft 😇
 
 This rep is about site that author practicing some stuff mostly site layout. 🧐
