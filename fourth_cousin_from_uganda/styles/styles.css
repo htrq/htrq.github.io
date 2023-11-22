@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Anton;
+    src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+
+html {
+    background-image: url(../images/background.jpg);
+    background-size: 500%;
+    background-position: center center;
+}
+
+body {
+    width: 70%;
+    border: 3px solid black;
+    box-shadow: 2px 4px 2px;
+    margin: 40px auto;
+    background-color: rgb(210, 218, 255);
+}
+
+nav li {
+    display: inline-block;
+    padding: 8px 4px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+p h1 {
+    margin-left: 8px;
+}
+
+ul {
+    padding: 10px 20px;
+}
+
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: Anton, sans-serif;
+    font-size: medium;
+}
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: #ABFFD4;
+}
